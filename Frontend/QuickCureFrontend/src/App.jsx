@@ -6,12 +6,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { ThemeProvider } from "./Contexts/theme.jsx";
-import { LandingPage } from "./index.js";
+import { LandingLayout, LandingPage } from "./index.js";
 function App() {
   const MyRouter = createBrowserRouter(
     createRoutesFromElements(
       <>
-        <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/" element={<LandingLayout />}></Route>
       </>
     )
   );
