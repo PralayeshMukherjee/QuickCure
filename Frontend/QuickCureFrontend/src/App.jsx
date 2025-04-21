@@ -6,7 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { ThemeProvider } from "./Contexts/theme.jsx";
-import { LandingLayout, LandingPage } from "./index.js";
+import { LandingLayout } from "./index.js";
 function App() {
   const MyRouter = createBrowserRouter(
     createRoutesFromElements(
